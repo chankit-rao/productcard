@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* wrapper */
+#wrapper {
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mug {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    border-radius: 20px;
+}
+
+#mug img {
+    height: 400px;
+}
+
+#second-part {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+}
+
+#second-part h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+}
+
+#second-part h6 {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+#second-part p
+{
+    color: grey;
+}
+
+#price
+{
+    padding: 15px 0px;
+}
+
+#current-price
+{
+    font-size: 1.82rem;
+    font-weight: bolder;
+    color: hsl(158, 36%, 37%);
+}
+
+#deleted-price
+{
+    margin-left: .68rem;
+    color: grey;
+}
+
+button{
+ display: block;
+ width: 250px;
+ margin: 20px auto;
+ border-radius:6px;
+ border-color:transparent ;
+ /* height: 15px; */
+ background-color:hsl(158, 36%, 37%) ;
+}
+
+#button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    padding: 2px;
+}
+
+#button img{
+    width: 25px;
+    height: 25px;
+    margin-right:15px;
+}
+
+#button p
+{
+    color: white;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: hsl(156, 24%, 24%);
+  }
+
+
+
